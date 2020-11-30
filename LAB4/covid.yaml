@@ -1,0 +1,94 @@
+Hypotheses:
+# For each hypothesis:
+# - name: name of the hypothesis
+#   prob: a-priori probability of the hypothesis, Pr(h)
+  - name: Covid-19
+    prob: 0.1
+  - name: Covid-20
+    prob: 0.0
+  - name: Covid-21
+    prob: 0.0
+  - name: przeziebienie
+    prob: 0.3
+  - name: grypa
+    prob: 0.2
+  - name: inna choroba
+    prob: 0.4
+Facts: 
+# For each fact:
+# - name: name of the fact
+#   prob:
+#   For each hypothesis: 
+#   - probability that fact belongs to the hypothesis, Pr(f|h)
+  - name: goraczka
+    prob: 
+    - 0.5
+    - 0.0
+    - 0.0
+    - 0.4
+    - 0.4
+    - 0.3
+  - name: such kaszel
+    prob: 
+    - 0.6
+    - 0.0
+    - 0.0
+    - 0.2
+    - 0.4
+    - 0.3
+  - name: mokry kaszel
+    prob: 
+    - 0.1
+    - 0.0
+    - 0.0
+    - 0.3
+    - 0.2
+    - 0.5
+  - name: zmeczenie
+    prob: 
+    - 0.4
+    - 0.0
+    - 0.0
+    - 0.5
+    - 0.5
+    - 0.3
+  - name: bol miesni
+    prob: 
+    - 0.4
+    - 0.0
+    - 0.0
+    - 0.1
+    - 0.4
+    - 0.2
+  - name: biegunka
+    prob: 
+    - 0.4
+    - 0.0
+    - 0.0
+    - 0.1
+    - 0.3
+    - 0.4
+  - name: zapalenie spojowek
+    prob: 
+    - 0.3
+    - 0.0
+    - 0.0
+    - 0.3
+    - 0.1
+    - 0.5
+  - name: bol glowy
+    prob: 
+    - 0.4
+    - 0.0
+    - 0.0
+    - 0.5
+    - 0.4
+    - 0.3
+  - name: trudnosc w oddychaniu
+    prob: 
+    - 0.5
+    - 0.0
+    - 0.0
+    - 0.1
+    - 0.1
+    - 0.3
